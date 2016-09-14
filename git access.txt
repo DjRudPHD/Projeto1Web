@@ -1,0 +1,65 @@
+              15 pasta(s)   67.773.947.904 bytes disponíveis
+
+C:\Users\a1420879>z:
+
+Z:\>dir
+ O volume na unidade Z é a1420879
+ O Número de Série do Volume é D9AB-ACD9
+
+ Pasta de Z:\
+
+14/09/2016  09:32    <DIR>          .
+05/09/2014  10:45    <DIR>          ..
+14/09/2016  09:33    <DIR>          DWE
+09/09/2016  22:01    <DIR>          Eclipse
+10/08/2016  08:26    <DIR>          SSI
+               0 arquivo(s)              0 bytes
+               5 pasta(s)       48.488.448 bytes disponíveis
+
+Z:\>cd dwe
+
+Z:\DWE>dir
+ O volume na unidade Z é a1420879
+ O Número de Série do Volume é D9AB-ACD9
+
+ Pasta de Z:\DWE
+
+14/09/2016  09:33    <DIR>          .
+14/09/2016  09:32    <DIR>          ..
+               0 arquivo(s)              0 bytes
+               2 pasta(s)       48.488.448 bytes disponíveis
+
+Z:\DWE>git clone https://github.com/DjRudPHD/Projeto1Web.git
+Cloning into 'Projeto1Web'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+
+Z:\DWE>dir
+ O volume na unidade Z é a1420879
+ O Número de Série do Volume é D9AB-ACD9
+
+ Pasta de Z:\DWE
+
+14/09/2016  09:34    <DIR>          .
+14/09/2016  09:32    <DIR>          ..
+14/09/2016  09:34    <DIR>          Projeto1Web
+               0 arquivo(s)              0 bytes
+               3 pasta(s)       48.390.144 bytes disponíveis
+
+Z:\DWE>cd projeto1web
+
+Z:\DWE\Projeto1Web>dir
+ O volume na unidade Z é a1420879
+ O Número de Série do Volume é D9AB-ACD9
+
+ Pasta de Z:\DWE\Projeto1Web
+
+14/09/2016  09:34    <DIR>          .
+14/09/2016  09:34    <DIR>          ..
+               0 arquivo(s)              0 bytes
+               2 pasta(s)       48.390.144 bytes disponíveis
+
+Z:\DWE\Projeto1Web>git init
+Reinitialized existing Git repository in Z:/DWE/Projeto1Web/.git/
+
+Z:\DWE\Projeto1Web>
