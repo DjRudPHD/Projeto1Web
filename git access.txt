@@ -1,65 +1,49 @@
-              15 pasta(s)   67.773.947.904 bytes disponíveis
+Usar o Git
 
-C:\Users\a1420879>z:
+Passo 1
+Abra o GITHUB e acesse o link do projeto acesse o GITHUB e click
+no link clone / download
 
-Z:\>dir
- O volume na unidade Z é a1420879
- O Número de Série do Volume é D9AB-ACD9
+Passo 2
+Abre o CMD e executa em um diretorio de trabalho a linha 
 
- Pasta de Z:\
+C:\Users\a1420879>git clone + link do projeto https://github.com/DjRudPHD/Projeto1Web.git
 
-14/09/2016  09:32    <DIR>          .
-05/09/2014  10:45    <DIR>          ..
-14/09/2016  09:33    <DIR>          DWE
-09/09/2016  22:01    <DIR>          Eclipse
-10/08/2016  08:26    <DIR>          SSI
-               0 arquivo(s)              0 bytes
-               5 pasta(s)       48.488.448 bytes disponíveis
+Passo 3
+Acesse seu projeto local apos a clonagem
 
-Z:\>cd dwe
+C:\Users\a1420879>cd projeto1web
 
-Z:\DWE>dir
- O volume na unidade Z é a1420879
- O Número de Série do Volume é D9AB-ACD9
+Passo 4
+Inicialize seu projeto
 
- Pasta de Z:\DWE
+C:\Users\a1420879\Projeto1Web>git init
 
-14/09/2016  09:33    <DIR>          .
-14/09/2016  09:32    <DIR>          ..
-               0 arquivo(s)              0 bytes
-               2 pasta(s)       48.488.448 bytes disponíveis
+Passo 5
+Verifique o Status
 
-Z:\DWE>git clone https://github.com/DjRudPHD/Projeto1Web.git
-Cloning into 'Projeto1Web'...
-warning: You appear to have cloned an empty repository.
-Checking connectivity... done.
+C:\Users\a1420879\Projeto1Web>git status
 
-Z:\DWE>dir
- O volume na unidade Z é a1420879
- O Número de Série do Volume é D9AB-ACD9
+Comece a editar e a fazer alterações nos arquivos
 
- Pasta de Z:\DWE
+Passo 6 
+Adicione os arquivos que vc alterou
 
-14/09/2016  09:34    <DIR>          .
-14/09/2016  09:32    <DIR>          ..
-14/09/2016  09:34    <DIR>          Projeto1Web
-               0 arquivo(s)              0 bytes
-               3 pasta(s)       48.390.144 bytes disponíveis
+C:\Users\a1420879\Projeto1Web>git add autores.php
+Voce pode usar . para add todos os arquivos
 
-Z:\DWE>cd projeto1web
+Passo 7 
+Verifique o Status
 
-Z:\DWE\Projeto1Web>dir
- O volume na unidade Z é a1420879
- O Número de Série do Volume é D9AB-ACD9
+C:\Users\a1420879\Projeto1Web>git status
 
- Pasta de Z:\DWE\Projeto1Web
+Passo 8
+Commite as alterações e add os comentarios entre aspas
 
-14/09/2016  09:34    <DIR>          .
-14/09/2016  09:34    <DIR>          ..
-               0 arquivo(s)              0 bytes
-               2 pasta(s)       48.390.144 bytes disponíveis
+C:\Users\a1420879\Projeto1Web>git commit -m "Add Uma Linha"
 
-Z:\DWE\Projeto1Web>git init
-Reinitialized existing Git repository in Z:/DWE/Projeto1Web/.git/
+Passo 9
+Envie o arquivo para o GITHUB
 
-Z:\DWE\Projeto1Web>
+C:\Users\a1420879\Projeto1Web>git push origin master
+
