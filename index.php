@@ -3,9 +3,13 @@
 <title>Pontos Culturais da Cidade de Hortolandia</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
 <script>
-function mapaloc(lt,lg){
-		mymap.setView([lt, lg], 15);
+function mapaloc(lt,lg,zo){
+		mymap.setView([lt, lg], zo);
 	}
+	
+function abrejanela(){
+	window.open("faleconosco.php", "Formulario", "width=350,height=380");
+}
 </script>	
 </head>
 <style>
@@ -55,10 +59,10 @@ function mapaloc(lt,lg){
 	</script>
 <p>
 <table>
-<tr><td>Parque Socioambiental Dorothy Stang</td><td><button onclick="mapaloc(-22.896439, -47.169500);">Visitar</button></td></tr>
-<tr><td>Parque Santa Clara (CREAPE)</td><td><button onclick="mapaloc(-22.890485, -47.199333);">Visitar</button></td></tr>
-<tr><td>Parque Linear Chico Mendes</td><td><button onclick="mapaloc(-22.868042, -47.218688);">Visitar</button></td></tr>
-<tr><td>Antiga Estação Ferroviária de Hortolândia</td><td><button onclick="mapaloc(-22.860132, -47.219354);">Visitar</button></td></tr>
+<tr><td>Parque Socioambiental Dorothy Stang</td><td><button onclick="mapaloc(-22.896439, -47.169500, 15);">Visitar</button></td></tr>
+<tr><td>Parque Santa Clara (CREAPE)</td><td><button onclick="mapaloc(-22.890485, -47.199333, 15);">Visitar</button></td></tr>
+<tr><td>Parque Linear Chico Mendes</td><td><button onclick="mapaloc(-22.868042, -47.218688, 16);">Visitar</button></td></tr>
+<tr><td>Antiga Estação Ferroviária de Hortolândia</td><td><button onclick="mapaloc(-22.860132, -47.219354, 16);">Visitar</button></td></tr>
 </table>
 <p>
 <?php include 'footer.php';?>
