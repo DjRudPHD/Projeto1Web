@@ -3,7 +3,8 @@
 <meta charset="utf-8">
 </head>
 <body>
-Pagina do rodapé
+-- Curso de Web Designer --</br>
+---- 2° Semestre 2016 -----
 </body>
 </html>
 	
